@@ -40,7 +40,7 @@ Product listing and search
 
 Cart and order management
 
-ML-based product recommendations
+ML-based product recommendations - Machine Learning module – Planned integration (In Progress)
 
 Responsive UI
 
