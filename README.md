@@ -1,15 +1,15 @@
-Geetham Online Grocery Platform
+**Geetham Online Grocery Platform**
 
 A full-stack online grocery application built using React, Next.js, MongoDB with integrated machine learning–based recommendation features.
 
-🚀 Tech Stack
+**🚀 Tech Stack**
 
 Frontend: React, Next.js
 Backend: Next.js API Routes (Node.js runtime)
 Database: MongoDB
 Machine Learning: Python, FP-Growth, Scikit-learn
 
-🏗 Architecture
+**🏗 Architecture**
 
 This project uses Next.js API routes to handle backend functionality within the same application.
 
@@ -30,7 +30,7 @@ Database communication
 
 The machine learning recommendation engine is developed separately in the ml/ directory and can be integrated with backend APIs.
 
-📂 Project Structure
+**📂 Project Structure**
 geetham-online-grocery/
 │
 ├── frontend/      # Next.js full-stack application
@@ -44,7 +44,7 @@ geetham-online-grocery/
 ├── screenshots/   # UI screenshots
 └── README.md
 
-✨ Features
+**✨ Features**
 
 Product listing and search
 
@@ -54,16 +54,16 @@ ML-based product recommendations
 
 Responsive UI
 
-📸 Screenshots
+**📸 Screenshots**
 Home Page
 
 Product Listing
 
 Cart
 
-Recommendations
+**Recommendations**
 
-🛠 Installation
+🛠 **Installation**
 # Clone repository
 git clone https://github.com/geethawilliam-ds/geetham-online-grocery.git
 
@@ -77,6 +77,6 @@ cd ../ml
 pip install -r requirements.txt
 python recommendation.py
 
-📌 Project Status
+📌 **Project Status**
 
 🚧 Under active development
