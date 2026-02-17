@@ -1,35 +1,82 @@
-# geetham-online-grocery
-Full-stack online grocery application built with React, Next.js, Node.js, MongoDB and Machine Learning
+Geetham Online Grocery Platform
 
-# Geetham Online Grocery Platform
+A full-stack online grocery application built using React, Next.js, MongoDB with integrated machine learning–based recommendation features.
 
-A full-stack online grocery application built using React, Next.js,
-Node.js, MongoDB with integrated machine learning features.
+🚀 Tech Stack
 
-## Tech Stack
-- Frontend: React, Next.js
-- Backend: Node.js, Express
-- Database: MongoDB
-- Machine Learning: Python, FP-Growth, Scikit-learn
+Frontend: React, Next.js
+Backend: Next.js API Routes (Node.js runtime)
+Database: MongoDB
+Machine Learning: Python, FP-Growth, Scikit-learn
 
-## Features
-- Product listing and search
-- Cart and order management
-- ML-based product recommendations
+🏗 Architecture
 
-## Screenshots
+This project uses Next.js API routes to handle backend functionality within the same application.
 
-### Home Page
-![Home](screenshots/home.png)
+API endpoints are located in:
 
-### Product Listing
-![Products](screenshots/products.png)
+frontend/pages/api/
 
-### Cart
-![Cart](screenshots/cart.png)
 
-### Recommendations
-![Recommendations](screenshots/recommendation.png)
+These routes handle:
 
-## Project Status
+Product management
+
+Cart operations
+
+Order processing
+
+Database communication
+
+The machine learning recommendation engine is developed separately in the ml/ directory and can be integrated with backend APIs.
+
+📂 Project Structure
+geetham-online-grocery/
+│
+├── frontend/      # Next.js full-stack application
+│   ├── pages/
+│   │   ├── api/   # Backend API routes
+│   │   └── index.js
+│   ├── components/
+│   └── styles/
+│
+├── ml/            # Machine learning recommendation logic
+├── screenshots/   # UI screenshots
+└── README.md
+
+✨ Features
+
+Product listing and search
+
+Cart and order management
+
+ML-based product recommendations
+
+Responsive UI
+
+📸 Screenshots
+Home Page
+
+Product Listing
+
+Cart
+
+Recommendations
+
+🛠 Installation
+# Clone repository
+git clone https://github.com/geethawilliam-ds/geetham-online-grocery.git
+
+# Frontend + Backend (Next.js)
+cd frontend
+npm install
+npm run dev
+
+# Machine Learning
+cd ../ml
+pip install -r requirements.txt
+python recommendation.py
+
+📌 Project Status
+
 🚧 Under active development
