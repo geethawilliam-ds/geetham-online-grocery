@@ -31,6 +31,7 @@ Database communication
 The machine learning recommendation engine is developed separately in the ml/ directory and can be integrated with backend APIs.
 
 **📂 Project Structure**
+
 geetham-online-grocery/
 │
 ├── frontend/      # Next.js full-stack application
