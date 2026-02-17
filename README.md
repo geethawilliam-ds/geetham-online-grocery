@@ -31,6 +31,9 @@ Database communication
 The machine learning recommendation engine is developed separately in the ml/ directory and can be integrated with backend APIs.
 
 **📂 Project Structure**
+<img width="609" height="398" alt="image" src="https://github.com/user-attachments/assets/d5e340a6-746c-4754-977d-1eb82b41e9f0" />
+
+
 
 geetham-online-grocery/
 │
